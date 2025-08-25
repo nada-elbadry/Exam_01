@@ -79,6 +79,7 @@ namespace Exam_01
         {
             while (true)
             {
+                //..
                 Console.Write(prompt);
                 if (int.TryParse(Console.ReadLine(), out int v)
                     && (!min.HasValue || v >= min)
