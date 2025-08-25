@@ -24,7 +24,7 @@ namespace Exam_01.Answer_Question_Hierarchy
 
         #region  Methods
         public object Clone() => new Answer(Id, Text);
-
+        //
         public override string ToString() => $"{Id}) {Text}"; 
 
         #endregion
